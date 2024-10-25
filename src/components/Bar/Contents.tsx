@@ -1,6 +1,7 @@
 "use client";
 
 import { Col, Layout, Row } from "antd";
+import Header from "./Header/Header";
 
 const { Content } = Layout;
 
@@ -9,7 +10,9 @@ const Contents = ({ children }: { children: React.ReactNode }) => {
   //   const FrontHeader = dynamic(() => import("../header/Header"), { ssr: false });
   return (
     <Content style={{ minHeight: "100vh", overflow: "initial" }}>
-      {/* <FrontHeader /> */}
+      <div className="w-with mx-auto">
+        <Header />
+      </div>
       {/* <div className="w-with mx-auto">
         <CBreadCrumb
           items={[

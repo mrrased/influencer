@@ -13,6 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
         blue: "#9B59B6",
         yellow: "#E3955B",
+        black: "#020202",
       },
       width: {
         with: "1400px",

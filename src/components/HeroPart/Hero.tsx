@@ -11,7 +11,7 @@ const Hero = () => {
       </div>
       <div className="absolute top-0 left-0">
         <ul>
-          <li className="text-6xl text-blue font-sans font-bold text-center mt-16">
+          <li className="text-6xl text-blue font-sans font-bold text-center mt-32">
             {`"Unlock Your Potential"`}
           </li>
           <li className="text-blue text-2xl text-center mx-64 mt-11">
