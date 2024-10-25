@@ -11,6 +11,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        blue: "#9B59B6",
+        yellow: "#E3955B",
+      },
+      width: {
+        with: "1400px",
       },
     },
   },

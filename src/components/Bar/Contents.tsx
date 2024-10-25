@@ -29,18 +29,7 @@ const Contents = ({ children }: { children: React.ReactNode }) => {
         <div className="">
           {/* <Banner /> */}
           <Row className="md:mx-5 xl:mx-10 2xl:mx-0">
-            <Col
-              xs={24}
-              sm={24}
-              md={0}
-              lg={0}
-              xl={4}
-              className="hidden lg:block"
-            >
-              {/* <SideBarComponent />
-              <SideBarImage /> */}
-            </Col>
-            <Col xs={24} sm={24} md={24} lg={24} xl={20}>
+            <Col xs={24} sm={24} md={24} lg={24} xl={24}>
               {children}
             </Col>
           </Row>

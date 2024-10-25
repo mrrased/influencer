@@ -1,0 +1,13 @@
+export const Subtract = "/images/Subtract.png";
+export const Hero_IMG = "/images/hero_img.png";
+export const bg_secend = "/images/bg_home_secend.png";
+export const brands1 = "/images/brands1.png";
+export const brands2 = "/images/brands2.png";
+export const brands3 = "/images/brands3.png";
+export const brands4 = "/images/brands4.png";
+export const brands5 = "/images/brands5.png";
+export const brands6 = "/images/brands6.png";
+export const brands7 = "/images/brands7.png";
+export const brands8 = "/images/brands8.png";
+export const brands9 = "/images/brands9.png";
+export const testi = "/images/testi.png";

@@ -25,3 +25,53 @@ body {
     text-wrap: balance;
   }
 }
+
+#home-secendPart{
+  background-image: url(/images/bg_home_secend.png);
+  height:2394px ;
+  width: 1400px;
+  background-size: cover; /* Ensures the image covers the div */
+  background-position: center; 
+}
+
+#footer-part{
+  background-image: url(/images/footer.png);
+  height:566px ;
+  width: 1400px;
+  background-size: cover; /* Ensures the image covers the div */
+  background-position: center
+}
+
+#testimonial-style{
+  height: 359px;
+  width: 383px;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next { /* Change the arrow background color */
+  border-radius: 50%; /* Make arrows circular */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+/* Change the color of the arrow itself */
+.ant-carousel .slick-prev::before,
+.ant-carousel .slick-next::after {
+  color: black;
+}
+
+/* Styling the selected slide */
+/* .ant-carousel .slick-slide.slick-active {
+  background-color: #f5f5f5; 
+  border: 2px solid #E3955B; 
+} */
+
+.ant-carousel .slick-next.slick-active {
+  background-color: #f5f5f5; 
+  /* border: 2px solid #E3955B;  */
+}
