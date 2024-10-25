@@ -6,9 +6,9 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-const Header = () => {
+const Headers = () => {
   return (
-    <div className="absolute w-with z-30">
+    <div className="w-with z-30">
       <div id="header-style">
         <div className="mx-[100px]">
           <ul className="flex justify-between leading-[70px]">
@@ -27,7 +27,7 @@ const Header = () => {
                 <li>
                   <ul className="flex space-x-3">
                     <li>
-                      <Link href={`/my-favourites`}>
+                      <Link href={`/my-favourites`} className="text-black">
                         <AiOutlineHeart />
                       </Link>
                     </li>
@@ -57,4 +57,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Headers;
